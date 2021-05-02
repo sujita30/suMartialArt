@@ -1,0 +1,36 @@
+<html>
+    <style>
+        canvas {
+            background-image: url("/images/background.jpg");
+            background-repeat: no-repeat;
+            background-size: 550px, 550px;
+        }
+        .center {
+        width: 30%;
+        margin-left: 600px;
+        margin-top: 0px;
+        }
+        .left {
+        width: 550px;
+        margin-left: 0px;
+        margin-top: 0px;
+        float: left;
+        }
+    </style>
+    <body>
+    <h1>Welcome to Martial Art (Lets learn some moves)</h1>
+    <div class="left">
+<canvas style="border: 2px solid black;" id="myCanvas" width="550" height="550">
+
+</canvas>
+</div>
+<div class="center">
+    <button id="kick">Kick(Left Arrow Key)</button> <br/><br/>
+    <button id="punch">Punch(Right Arrow Key)</button><br/><br/>
+    <button id="backward">Backward(Down Arrow Key)</button><br/><br/>
+    <button id="forward">Forward(Up Arrow Key)</button><br/><br/>
+    <button id="block">Block(Enter)</button>
+</div>
+<script lang="text/javascript", src="main.js"></script>
+</body>
+</html>
